@@ -1,0 +1,1061 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>First Home Buyer Readiness · Faiz, Azrina & Co.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="10-question readiness check for first home buyers in Malaysia, with instant insights and live mortgage rate overview.">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="css/first-home.css">
+</head>
+<body>
+  <div class="page">
+    <div class="wrap">
+
+      <!-- LANGUAGE SWITCH -->
+      <div class="language-switch">
+        <button data-lang="en" class="lang-btn active">EN</button>
+        <button data-lang="bm" class="lang-btn">BM</button>
+      </div>
+
+      <!-- HERO -->
+      <header class="hero">
+        <div>
+          <div class="badge"
+               data-en="First Home Buyer · Quick Check"
+               data-bm="Pembeli Rumah Pertama · Semakan Pantas">
+            <span class="badge-dot"></span>
+            First Home Buyer · Quick Check
+          </div>
+
+          <h1
+            data-en="Are you really ready to buy your first home?"
+            data-bm="Adakah anda benar-benar bersedia membeli rumah pertama?">
+            Are you really ready to buy your first home?
+          </h1>
+
+          <p class="lead"
+             data-en="Answer 10 simple questions to gauge your chances of a successful purchase and bank loan approval — before you pay any booking fee."
+             data-bm="Jawab 10 soalan ringkas untuk menilai peluang anda membeli rumah dan mendapat kelulusan pinjaman bank — sebelum anda membayar sebarang yuran tempahan.">
+            Answer 10 simple questions to gauge your chances of a successful purchase
+            and bank loan approval — before you pay any booking fee.
+          </p>
+
+          <div class="hero-points">
+            <span
+              data-en="See your readiness score instantly."
+              data-bm="Lihat skor kesiapsiagaan anda serta-merta.">
+              See your readiness score instantly.
+            </span>
+            <span
+              data-en="Understand what banks quietly look at."
+              data-bm="Fahami perkara yang sebenarnya dilihat oleh bank.">
+              Understand what banks quietly look at.
+            </span>
+            <span
+              data-en="Get an option to WhatsApp a lawyer for personalised advice."
+              data-bm="Dapatkan pilihan untuk WhatsApp peguam bagi nasihat yang lebih peribadi.">
+              Get an option to WhatsApp a lawyer for personalised advice.
+            </span>
+          </div>
+
+          <div class="hero-cta-row">
+            <button class="btn-primary" id="start-quiz"
+                    data-en="Start 2-minute readiness check"
+                    data-bm="Mulakan semakan 2 minit">
+              <span>▶</span>
+              Start 2-minute readiness check
+            </button>
+            <div class="hero-subtext"
+                 data-en="No IC or documents needed — just honest answers."
+                 data-bm="Tiada IC atau dokumen diperlukan — hanya jawapan yang jujur.">
+              No IC or documents needed — just honest answers.
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="hero-card-title"
+               data-en="What this page does for you"
+               data-bm="Apa yang halaman ini bantu anda">
+            What this page does for you
+          </div>
+          <div class="hero-card-points">
+            <div
+              data-en="10-question readiness quiz"
+              data-bm="Kuiz kesiapsiagaan 10 soalan">
+              10-question readiness quiz
+            </div>
+            <div
+              data-en="Snapshot of current mortgage rates"
+              data-bm="Gambaran ringkas kadar pembiayaan semasa">
+              Snapshot of current mortgage rates
+            </div>
+            <div
+              data-en="Direct WhatsApp line to our team"
+              data-bm="Talian WhatsApp terus kepada pasukan kami">
+              Direct WhatsApp line to our team
+            </div>
+          </div>
+          <div class="hero-card-pill"
+               data-en="First-home decisions, made with more clarity."
+               data-bm="Keputusan rumah pertama, dengan lebih jelas.">
+            First-home decisions, made with more clarity.
+          </div>
+        </aside>
+      </header>
+
+      <!-- MAIN CONTENT -->
+      <main>
+
+        <!-- QUIZ SECTION -->
+        <section id="quiz-section">
+          <h2 class="section-title"
+              data-en="Step 1 · First Home Buyer Readiness Quiz"
+              data-bm="Langkah 1 · Kuiz Kesiapsiagaan Pembeli Rumah Pertama">
+            Step 1 · First Home Buyer Readiness Quiz
+          </h2>
+
+          <p class="section-subtitle"
+             data-en="For each question, choose the answer that best describes your current situation. There is no perfect answer — we just want a realistic snapshot."
+             data-bm="Untuk setiap soalan, pilih jawapan yang paling menggambarkan keadaan semasa anda. Tiada jawapan yang sempurna — kami hanya mahu gambaran yang realistik.">
+            For each question, choose the answer that best describes your current situation.
+            There is no “perfect” answer — we just want a realistic snapshot.
+          </p>
+
+          <form id="readiness-form">
+            <div class="quiz-grid">
+
+              <!-- Q1 Property price -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="1. Property price you’re planning to buy"
+                     data-bm="1. Harga rumah yang anda bercadang untuk beli">
+                  1. Property price you’re planning to buy
+                </div>
+                <div class="quiz-help"
+                     data-en="Rough figure is enough. This helps estimate your loan amount and instalment."
+                     data-bm="Anggaran kasar sudah memadai. Ini membantu mengira jumlah pinjaman dan ansuran bulanan anda.">
+                  Rough figure is enough. This helps estimate your loan amount and instalment.
+                </div>
+                <div class="field">
+                  <label for="q-price" class="field-small">Property price (RM)</label>
+                  <input
+                    type="text"
+                    id="q-price"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 450,000.00">
+                </div>
+              </div>
+
+              <!-- Q2 Downpayment -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="2. How much downpayment will you pay upfront?"
+                     data-bm="2. Berapakah jumlah wang pendahuluan yang akan anda bayar?">
+                  2. How much downpayment will you pay upfront?
+                </div>
+                <div class="quiz-help"
+                     data-en="Include booking fee and any extra cash top-up you’re comfortable with."
+                     data-bm="Termasuk yuran tempahan dan apa-apa tambahan tunai yang anda selesa bayar.">
+                  Include booking fee and any extra cash top-up you’re comfortable with.
+                </div>
+                <div class="field">
+                  <label for="q-down" class="field-small">Downpayment (RM)</label>
+                  <input
+                    type="text"
+                    id="q-down"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 45,000.00">
+                </div>
+              </div>
+
+              <!-- Q3 Tenure -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="3. Preferred loan tenure"
+                     data-bm="3. Tempoh pinjaman yang anda inginkan">
+                  3. Preferred loan tenure
+                </div>
+                <div class="quiz-help"
+                     data-en="Longer tenure = lower monthly instalment, but more interest over time."
+                     data-bm="Tempoh lebih panjang = ansuran bulanan lebih rendah, tetapi jumlah faedah keseluruhan lebih tinggi.">
+                  Longer tenure = lower monthly instalment, but more interest over time.
+                </div>
+                <div class="field">
+                  <label for="q-tenure" class="field-small">Tenure (years)</label>
+                  <select id="q-tenure">
+                    <option value="">Select tenure</option>
+                    <option value="35">35 years (maximum for many banks)</option>
+                    <option value="30">30 years</option>
+                    <option value="25">25 years</option>
+                    <option value="20">20 years</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Q4 Income -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="4. Your monthly net income"
+                     data-bm="4. Pendapatan bersih bulanan anda">
+                  4. Your monthly net income
+                </div>
+                <div class="quiz-help"
+                     data-en="After EPF & tax. If applying jointly, use combined net income."
+                     data-bm="Selepas KWSP dan cukai. Jika memohon secara bersama, guna pendapatan bersih digabungkan.">
+                  After EPF & tax. If applying jointly, use combined net income.
+                </div>
+                <div class="field">
+                  <label for="q-income" class="field-small">Net income per month (RM)</label>
+                  <input
+                    type="text"
+                    id="q-income"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 6,500.00">
+                </div>
+              </div>
+
+              <!-- Q5 Commitments -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="5. Existing monthly bank commitments"
+                     data-bm="5. Komitmen bulanan bank yang sedia ada">
+                  5. Existing monthly bank commitments
+                </div>
+                <div class="quiz-help"
+                     data-en="Amounts that already appear in CCRIS (or similar): car loan, personal loan, PTPTN, credit cards, etc."
+                     data-bm="Jumlah yang sudah muncul dalam CCRIS (atau seumpamanya): pinjaman kereta, pinjaman peribadi, PTPTN, kad kredit dan lain-lain.">
+                  Amounts that already appear in CCRIS (or similar): car loan, personal loan, PTPTN, credit cards, etc.
+                </div>
+                <div class="field">
+                  <label for="q-car" class="field-small">Car loan instalment (RM)</label>
+                  <input
+                    type="text"
+                    id="q-car"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 700.00">
+                </div>
+                <div class="field">
+                  <label for="q-personal" class="field-small">Personal loan instalments (RM)</label>
+                  <input
+                    type="text"
+                    id="q-personal"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 400.00">
+                </div>
+                <div class="field">
+                  <label for="q-ptptn" class="field-small">PTPTN / education loan (RM)</label>
+                  <input
+                    type="text"
+                    id="q-ptptn"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 150.00">
+                </div>
+                <div class="field">
+                  <label for="q-card" class="field-small">Credit card minimum payments (RM)</label>
+                  <input
+                    type="text"
+                    id="q-card"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 200.00">
+                </div>
+                <div class="field">
+                  <label for="q-other" class="field-small">Other fixed bank commitments (RM)</label>
+                  <input
+                    type="text"
+                    id="q-other"
+                    class="money-input"
+                    inputmode="decimal"
+                    placeholder="e.g. 0.00">
+                </div>
+              </div>
+
+              <!-- Q6 Credit behaviour -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="6. Credit history & payment behaviour"
+                     data-bm="6. Rekod kredit dan corak bayaran balik">
+                  6. Credit history & payment behaviour
+                </div>
+                <div class="quiz-help"
+                     data-en="Based on CTOS/CCRIS if you’ve checked before, or your best knowledge."
+                     data-bm="Berdasarkan laporan CTOS/CCRIS jika anda pernah semak, atau penilaian terbaik anda sendiri.">
+                  Based on CTOS/CCRIS if you’ve checked before, or your best knowledge.
+                </div>
+                <div class="quiz-options">
+                  <label>
+                    <input type="radio" name="q-credit" value="clean">
+                    No late payments / issues I’m aware of
+                  </label>
+                  <label>
+                    <input type="radio" name="q-credit" value="minor">
+                    1–2 late payments, but generally okay
+                  </label>
+                  <label>
+                    <input type="radio" name="q-credit" value="multiple">
+                    Frequent late payments in the last 12–24 months
+                  </label>
+                  <label>
+                    <input type="radio" name="q-credit" value="serious">
+                    Defaults / special attention account / legal action
+                  </label>
+                </div>
+              </div>
+
+              <!-- Q7 Job stability -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="7. Employment / business stability"
+                     data-bm="7. Kestabilan pekerjaan atau perniagaan">
+                  7. Employment / business stability
+                </div>
+                <div class="quiz-help"
+                     data-en="Banks prefer consistent income from the same or similar source."
+                     data-bm="Bank mengutamakan pendapatan yang konsisten daripada sumber yang sama atau hampir sama.">
+                  Banks prefer consistent income from the same or similar source.
+                </div>
+                <div class="quiz-options">
+                  <label>
+                    <input type="radio" name="q-job" value="stable">
+                    Same job / business for 24+ months
+                  </label>
+                  <label>
+                    <input type="radio" name="q-job" value="ok">
+                    12–23 months in current role / business
+                  </label>
+                  <label>
+                    <input type="radio" name="q-job" value="new">
+                    Less than 12 months in current role / just changed
+                  </label>
+                  <label>
+                    <input type="radio" name="q-job" value="unstable">
+                    Irregular income / big gaps in employment
+                  </label>
+                </div>
+              </div>
+
+              <!-- Q8 Single / joint -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="8. Are you applying alone or jointly?"
+                     data-bm="8. Adakah anda memohon seorang diri atau secara bersama?">
+                  8. Are you applying alone or jointly?
+                </div>
+                <div class="quiz-help"
+                     data-en="Many first home buyers improve their profile with a joint applicant."
+                     data-bm="Ramai pembeli rumah pertama mengukuhkan profil mereka dengan pemohon bersama.">
+                  Many first home buyers improve their profile with a joint applicant.
+                </div>
+                <div class="quiz-options">
+                  <label>
+                    <input type="radio" name="q-applying" value="single" checked>
+                    Applying alone
+                  </label>
+                  <label>
+                    <input type="radio" name="q-applying" value="spouse">
+                    Joint with spouse
+                  </label>
+                  <label>
+                    <input type="radio" name="q-applying" value="family">
+                    Joint with family member (e.g. parent / sibling)
+                  </label>
+                </div>
+              </div>
+
+              <!-- Q9 Loan type -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="9. Type of home financing you’re leaning towards"
+                     data-bm="9. Jenis pembiayaan perumahan yang anda cenderung">
+                  9. Type of home financing you’re leaning towards
+                </div>
+                <div class="quiz-help"
+                     data-en="This doesn’t affect DSR, but helps us advise you later."
+                     data-bm="Ini tidak menjejaskan DSR, tetapi membantu kami memberi nasihat yang lebih tepat kepada anda.">
+                  This doesn’t affect DSR, but helps us advise you later.
+                </div>
+                <div class="field">
+                  <label for="q-loan-type" class="field-small">Loan type</label>
+                  <select id="q-loan-type">
+                    <option value="">Not sure yet</option>
+                    <option value="conventional">Conventional housing loan</option>
+                    <option value="islamic">Islamic home financing</option>
+                    <option value="zero-cost">Zero moving cost / no-legal-fees package</option>
+                    <option value="flexi">Full flexi / semi-flexi home loan</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Q10 Non-bank commitments -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="10. Other big monthly commitments (not always in CCRIS)"
+                     data-bm="10. Komitmen bulanan besar lain (tidak semestinya muncul dalam CCRIS)">
+                  10. Other big monthly commitments (not always in CCRIS)
+                </div>
+                <div class="quiz-help"
+                     data-en="For example: parents’ allowance, childcare, tuition, big insurance premiums, BNPL, etc."
+                     data-bm="Contohnya: duit belanja ibu bapa, taska atau pengasuh, tuisyen, premium insurans yang tinggi, bayaran ansuran beli sekarang bayar kemudian (BNPL) dan sebagainya.">
+                  For example: parents’ allowance, childcare, tuition, big insurance premiums, BNPL, etc.
+                </div>
+                <div class="quiz-options">
+                  <label>
+                    <input type="radio" name="q-nonbank" value="none" checked>
+                    No major extra commitments
+                  </label>
+                  <label>
+                    <input type="radio" name="q-nonbank" value="low">
+                    Less than RM300 per month
+                  </label>
+                  <label>
+                    <input type="radio" name="q-nonbank" value="medium">
+                    Around RM300–RM1,000 per month
+                  </label>
+                  <label>
+                    <input type="radio" name="q-nonbank" value="high">
+                    More than RM1,000 per month
+                  </label>
+                </div>
+              </div>
+
+            </div><!-- /.quiz-grid -->
+
+                    <div class="quiz-actions">
+              <div>
+                <button type="button" class="btn-primary" id="submit-quiz"
+                        data-en="See my banker-style readiness result"
+                        data-bm="Lihat keputusan kesiapsiagaan gaya pegawai bank">
+                  See my banker-style readiness result
+                </button>
+
+                <button type="button" class="btn-outline" id="reset-quiz"
+                        data-en="Reset answers"
+                        data-bm="Padam jawapan">
+                  Reset answers
+                </button>
+              </div>
+              <div class="quiz-note"
+                   data-en="We use your answers to estimate your Debt Service Ratio (DSR) like a banker would. This is an educational tool and not a guarantee of approval."
+                   data-bm="Kami menggunakan jawapan anda untuk menganggarkan Debt Service Ratio (DSR) seperti pegawai bank. Ini hanyalah alat pendidikan dan bukan jaminan kelulusan.">
+                We use your answers to estimate your Debt Service Ratio (DSR) like a banker would. This is an educational tool and not a guarantee of approval.
+              </div>
+            </div>
+
+            <!-- RESULT BOX (starts hidden, JS will fill this) -->
+            <div class="result-box" id="result-box" style="display:none;">
+              <div class="result-badge"
+                   data-en="Your readiness snapshot"
+                   data-bm="Gambaran ringkas kesiapsiagaan anda">
+                Your readiness snapshot
+              </div>
+
+              <!-- JS writes into these two -->
+              <div class="result-title" id="result-title"></div>
+              <div class="result-text" id="result-text"></div>
+
+              <div class="result-cta">
+                <p
+                  data-en="Want an actual banker-style review? Scroll down to WhatsApp us and send your numbers."
+                  data-bm="Mahukan semakan sebenar seperti pegawai bank? Skrol ke bawah untuk WhatsApp kami dan hantarkan nombor anda."
+                >
+                  Need further advice? Scroll down to WhatsApp us and send your numbers.
+                </p>
+
+                <button
+                  type="button"
+                  class="btn-wa"
+                  id="result-wa-btn"
+                  data-en="WhatsApp my numbers to the team"
+                  data-bm="WhatsApp nombor saya kepada pasukan"
+                >
+                  <img src="assets/icons/whatsapp-3d.jpg" alt="WhatsApp" class="wa-img">
+</button>
+                  
+                </button>
+              </div>
+            </div>
+
+
+          </form>
+        </section>
+
+        <!-- WHATSAPP CTA -->
+        <section>
+          <section id="wa-section">
+  <div class="wa-section">
+
+            <h2 class="section-title"
+                data-en="Step 2 · Talk to us on WhatsApp (optional)"
+                data-bm="Langkah 2 · Hubungi kami di WhatsApp (pilihan)">
+              Step 2 · Talk to us on WhatsApp (optional)
+            </h2>
+
+            <div class="section-subtitle"
+                 data-en="If you’d like us to walk through your numbers, explain your readiness result, or help you plan your next move, you can WhatsApp us directly."
+                 data-bm="Jika anda mahu kami jelaskan nombor anda, menerangkan keputusan kesiapsiagaan, atau membantu merancang langkah seterusnya, anda boleh WhatsApp kami terus.">
+              If you’d like us to walk through your numbers, explain your readiness result,
+              or help you plan your next move, you can WhatsApp us directly.
+            </div>
+
+            <div class="wa-row">
+              <div class="wa-copy">
+                <strong
+                  data-en="We work with all major banks."
+                  data-bm="Kami bekerjasama dengan semua bank utama.">
+                  We work with all major banks.
+                </strong>
+                <div
+                  data-en="We can help you understand what the banks are likely to say before you commit to a booking."
+                  data-bm="Kami boleh bantu anda faham apa yang bank mungkin katakan sebelum anda membuat tempahan.">
+                  We can help you understand what the banks are likely to say before you commit to a booking.
+                </div>
+                <div class="wa-hint"
+                     data-en="Tap the button below — you’ll fill in your name, phone, and email before WhatsApp opens."
+                     data-bm="Tekan butang di bawah — anda akan isi nama, nombor telefon dan emel sebelum WhatsApp dibuka.">
+                  Tap the button below — you’ll fill in your name, phone, and email
+                  before WhatsApp opens.
+                </div>
+              </div>
+
+              <button class="btn-wa" id="open-wa-modal"
+                      data-en="WhatsApp a lawyer"
+                      data-bm="WhatsApp peguam">
+                <span class="btn-wa-icon">💬</span>
+                WhatsApp a lawyer
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- RATES -->
+        <section>
+          <div class="rates-section">
+            <h2 class="section-title">Live Mortgage Rate Snapshot</h2>
+            <p class="rates-note">
+              These rates are pulled from our latest bank feed and are for illustration only.
+              Exact offers depend on your profile, property, and bank policy at the time of application.
+            </p>
+            <div class="rates-updated" id="rates-updated">
+              Loading latest rates…
+            </div>
+            <div class="rates-grid" id="rates-grid">
+              <!-- Cards injected by JavaScript -->
+            </div>
+            <p class="rates-note">
+              We can connect you with all major banks.
+              Prefer a human explanation instead of comparing tables?
+              Use the WhatsApp button above and tell us which bank(s) you’re considering.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        © <span id="year-span"></span> Faiz, Azrina &amp; Co. · Educational information only, not financial advice.
+      </footer>
+    </div>
+  </div>
+
+  <!-- WHATSAPP MODAL -->
+  <div class="modal-backdrop" id="wa-backdrop">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="wa-modal-title">
+      <div class="modal-header">
+        <div class="modal-title" id="wa-modal-title">Before we open WhatsApp…</div>
+        <button class="modal-close" id="wa-close" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <p style="margin-top:0;margin-bottom:8px;">
+          Tell us who you are so we can serve you better. WhatsApp will open with your
+          details and (optionally) your readiness score.
+        </p>
+        <div class="field">
+          <label for="wa-name">Full name *</label>
+          <input type="text" id="wa-name" required>
+        </div>
+        <div class="field">
+          <label for="wa-phone">Mobile number (WhatsApp) *</label>
+          <input type="tel" id="wa-phone" placeholder="e.g. 0123456789" required>
+          <div class="field-small">Please include leading zero; we’ll format it for WhatsApp.</div>
+        </div>
+        <div class="field">
+          <label for="wa-email">Email address *</label>
+          <input type="email" id="wa-email" required>
+        </div>
+        <div class="field">
+          <label for="wa-notes">Anything else you’d like us to know? (optional)</label>
+          <textarea id="wa-notes" placeholder="Example: Target property price, location, your quiz score if you know it…"></textarea>
+        </div>
+        <div class="error-msg" id="wa-error" style="display:none;"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-outline" id="wa-cancel">Cancel</button>
+        <button class="btn-primary" id="wa-submit">Open WhatsApp</button>
+      </div>
+    </div>
+  </div>
+  <!-- Floating WhatsApp button -->
+<button class="wa-fab" id="wa-fab" aria-label="WhatsApp us">
+  <img src="assets/icons/whatsapp-3d.jpg" alt="WhatsApp" class="wa-img">
+</button>
+
+
+
+  <script>
+    // ========== GENERAL ==========
+    document.getElementById('year-span').textContent = new Date().getFullYear();
+
+    const startQuizBtn = document.getElementById('start-quiz');
+    if (startQuizBtn) {
+      startQuizBtn.addEventListener('click', () => {
+        const quizSection = document.getElementById('quiz-section');
+        if (quizSection) {
+          quizSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+
+    // ========== LANGUAGE SWITCH ==========
+    let currentLang = 'en';
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const langNodes = document.querySelectorAll('[data-en][data-bm]');
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        langButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        currentLang = btn.dataset.lang || 'en';
+
+        langNodes.forEach(el => {
+          el.textContent = el.dataset[currentLang];
+        });
+      });
+    });
+
+    // ========== QUIZ / HIDDEN DSR LOGIC ==========
+    const quizForm = document.getElementById('readiness-form');
+    const resultBox = document.getElementById('result-box');
+    const resultTitle = document.getElementById('result-title');
+    const resultText = document.getElementById('result-text');
+
+    function numOrZero(id) {
+      const el = document.getElementById(id);
+      if (!el) return 0;
+      const raw = (el.value || '').replace(/,/g, '');
+      const v = parseFloat(raw);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    function formatRM(amount, decimals = 0) {
+      return 'RM ' + (amount || 0).toLocaleString('en-MY', {
+        minimumFractionDigits: decimals,
+        maximumFractionDigits: decimals
+      });
+    }
+
+    function cleanNumberString(value) {
+      return (value || '').replace(/[^0-9.]/g, '');
+    }
+
+    function attachMoneyFormatters() {
+      const moneyInputs = document.querySelectorAll('.money-input');
+
+      moneyInputs.forEach((input) => {
+        input.addEventListener('focus', () => {
+          const cleaned = cleanNumberString(input.value);
+          input.value = cleaned;
+        });
+
+        input.addEventListener('blur', () => {
+          const cleaned = cleanNumberString(input.value);
+          if (!cleaned) {
+            input.value = '';
+            return;
+          }
+          const num = parseFloat(cleaned);
+          if (isNaN(num)) {
+            input.value = '';
+            return;
+          }
+          input.value = num.toLocaleString('en-MY', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+          });
+        });
+      });
+    }
+
+    attachMoneyFormatters();
+
+    function computeAssessment(options) {
+      const showAlerts = options && options.showAlerts;
+
+      const price = numOrZero('q-price');
+      const down = numOrZero('q-down');
+      const tenure = parseInt(document.getElementById('q-tenure').value, 10);
+      const income = numOrZero('q-income');
+
+      const car = numOrZero('q-car');
+      const personal = numOrZero('q-personal');
+      const ptptn = numOrZero('q-ptptn');
+      const card = numOrZero('q-card');
+      const other = numOrZero('q-other');
+
+      const creditEl = quizForm.querySelector('input[name="q-credit"]:checked');
+      const jobEl = quizForm.querySelector('input[name="q-job"]:checked');
+      const applyingEl = quizForm.querySelector('input[name="q-applying"]:checked');
+      const nonbankEl = quizForm.querySelector('input[name="q-nonbank"]:checked');
+
+      if (showAlerts) {
+        if (!price || !tenure || !income) {
+          alert('Please enter at least property price, tenure and your monthly net income.');
+          return null;
+        }
+        if (!creditEl || !jobEl) {
+          alert('Please answer the questions on credit history and job stability.');
+          return null;
+        }
+      } else {
+        if (!price || !tenure || !income) return null;
+      }
+
+      const totalBankCommit = car + personal + ptptn + card + other;
+
+      const credit = creditEl ? creditEl.value : 'unknown';
+      const job = jobEl ? jobEl.value : 'unknown';
+      const applying = applyingEl ? applyingEl.value : 'single';
+      const nonbank = nonbankEl ? nonbankEl.value : 'none';
+
+      let shadowCommit = 0;
+      if (nonbank === 'low') shadowCommit = 200;
+      else if (nonbank === 'medium') shadowCommit = 600;
+      else if (nonbank === 'high') shadowCommit = 1200;
+
+      const loanAmount = Math.max(price - down, 0);
+
+      const annualRate = 4.25;
+      const monthlyRate = annualRate / 100 / 12;
+      const n = tenure * 12;
+
+      let instalment = 0;
+      if (loanAmount > 0 && tenure > 0) {
+        if (monthlyRate === 0) {
+          instalment = loanAmount / n;
+        } else {
+          instalment =
+            loanAmount *
+            (monthlyRate / (1 - Math.pow(1 + monthlyRate, -n)));
+        }
+      }
+
+      const totalOutflow = totalBankCommit + shadowCommit + instalment;
+      const dsrRaw = income > 0 ? (totalOutflow / income) * 100 : 0;
+      const dsr = Math.round(dsrRaw);
+
+      let title;
+      if (dsr < 40) {
+        title = 'Strong position — banks are likely to be comfortable';
+      } else if (dsr < 55) {
+        title = 'Workable zone — approval depends on bank and profile';
+      } else if (dsr < 70) {
+        title = 'Stressed zone — approvals possible but tougher';
+      } else {
+        title = 'High risk of rejection at this loan amount';
+      }
+
+      let narrative =
+        'Based on your answers, we estimated your numbers similar to how a banker would:' +
+        `\n\n• Estimated loan amount: ${formatRM(loanAmount, 0)}` +
+        `\n• Estimated monthly instalment: ${formatRM(instalment, 2)} (at ~${annualRate.toFixed(
+          2
+        )}% p.a. for ${tenure} years)` +
+        `\n• Existing bank commitments (from CCRIS-type loans/cards): ${formatRM(
+          totalBankCommit,
+          0
+        )}` +
+        `\n• Extra non-bank commitments (estimated): ${formatRM(shadowCommit, 0)}` +
+        `\n• Total monthly outflow (existing + new instalment): ${formatRM(
+          totalOutflow,
+          2
+        )}` +
+        `\n• Estimated DSR (Debt Service Ratio): ${dsr}%`;
+
+      narrative +=
+        '\n\nMost Malaysian banks are more comfortable when DSR is somewhere below about 55–60% (depending on bank, income level, and internal policy).';
+
+      if (credit === 'clean') {
+        narrative +=
+          '\n\nYour declared credit behaviour looks clean, which is a plus for approval.';
+      } else if (credit === 'minor') {
+        narrative +=
+          '\n\nYou mentioned some minor late payments — usually manageable, but it can affect which bank is more suitable.';
+      } else if (credit === 'multiple') {
+        narrative +=
+          '\n\nMultiple late payments in the last 12–24 months may cause some banks to be stricter with your application.';
+      } else if (credit === 'serious') {
+        narrative +=
+          '\n\nSerious credit issues (defaults / legal action) can heavily reduce approval chances until they are regularised.';
+      }
+
+      if (job === 'stable') {
+        narrative +=
+          '\n\nStable employment/business over 24+ months strengthens your profile.';
+      } else if (job === 'new') {
+        narrative +=
+          '\n\nBeing less than 12 months in a new role can make some banks more cautious, especially if income is variable.';
+      } else if (job === 'unstable') {
+        narrative +=
+          '\n\nIrregular or unstable income can be a limiting factor even if the DSR percentage looks okay on paper.';
+      }
+
+      if (applying === 'spouse' || applying === 'family') {
+        narrative +=
+          '\n\nApplying jointly helps because the bank looks at the combined income when computing DSR.';
+      }
+
+      return {
+        dsr,
+        loanAmount,
+        instalment,
+        totalBankCommit,
+        shadowCommit,
+        totalOutflow,
+        title,
+        narrative
+      };
+    }
+
+    function calculateReadiness() {
+      const result = computeAssessment({ showAlerts: true });
+      if (!result) return;
+
+      const { dsr, title, narrative } = result;
+
+      resultTitle.textContent = `${title} (Estimated DSR: ${dsr}%)`;
+      resultText.textContent = narrative.replace(/\n/g, ' ');
+      resultBox.style.display = 'block';
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    document.getElementById('submit-quiz').addEventListener('click', calculateReadiness);
+
+    document.getElementById('reset-quiz').addEventListener('click', () => {
+      quizForm.reset();
+      resultBox.style.display = 'none';
+    });
+
+    function getLatestAssessmentSummary() {
+      const result = computeAssessment({ showAlerts: false });
+      if (!result) return null;
+
+      const { dsr, loanAmount, instalment } = result;
+      return (
+        `Estimated loan amount: ${formatRM(loanAmount, 0)}, ` +
+        `estimated monthly instalment: ${formatRM(instalment, 2)}, ` +
+        `estimated DSR: ${dsr}%.`
+      );
+    }
+
+    // ========== WHATSAPP MODAL ==========
+    const waBackdrop = document.getElementById('wa-backdrop');
+    const waOpenBtn = document.getElementById('open-wa-modal');
+    const waCloseBtn = document.getElementById('wa-close');
+    const waCancelBtn = document.getElementById('wa-cancel');
+    const waSubmitBtn = document.getElementById('wa-submit');
+    const waError = document.getElementById('wa-error');
+
+    function openModal() {
+      waBackdrop.style.display = 'flex';
+      waError.style.display = 'none';
+      waError.textContent = '';
+    }
+    // Make the result-section WhatsApp button open the same modal
+const resultWaBtn = document.getElementById('result-wa-btn');
+if (resultWaBtn) {
+  resultWaBtn.addEventListener('click', openModal);
+}
+
+
+    function closeModal() {
+      waBackdrop.style.display = 'none';
+    }
+
+    waOpenBtn.addEventListener('click', openModal);
+    waCloseBtn.addEventListener('click', closeModal);
+    waCancelBtn.addEventListener('click', closeModal);
+
+    waBackdrop.addEventListener('click', (e) => {
+      if (e.target === waBackdrop) closeModal();
+    });
+    // Floating WhatsApp FAB -> open the same modal
+const waFab = document.getElementById('wa-fab');
+if (waFab) {
+  waFab.addEventListener('click', openModal);
+}
+
+
+    waSubmitBtn.addEventListener('click', () => {
+      const name = document.getElementById('wa-name').value.trim();
+      const phone = document.getElementById('wa-phone').value.trim();
+      const email = document.getElementById('wa-email').value.trim();
+      const notes = document.getElementById('wa-notes').value.trim();
+
+      if (!name || !phone || !email) {
+        waError.textContent =
+          'Please fill in your name, mobile number, and email before we open WhatsApp.';
+        waError.style.display = 'block';
+        return;
+      }
+
+      if (!email.includes('@') || !email.includes('.')) {
+        waError.textContent = 'The email address doesn’t look quite right. Please check again.';
+        waError.style.display = 'block';
+        return;
+      }
+
+      let waPhone = phone.replace(/\D/g, '');
+      if (waPhone.startsWith('0')) {
+        waPhone = '6' + waPhone;
+      } else if (!waPhone.startsWith('6')) {
+        waPhone = '60' + waPhone;
+      }
+
+      const assessmentSummary = getLatestAssessmentSummary();
+      const readinessText = assessmentSummary
+        ? `My banker-style readiness check: ${assessmentSummary}`
+        : 'I have not fully completed the readiness check yet.';
+
+      const firmWaNumber = '60193505323';
+
+      let messageText =
+        `Hello Faiz, Azrina & Co.,\n\n` +
+        `My name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Mobile: ${phone}\n\n` +
+        `${readinessText}\n\n` +
+        `I would like to get legal/loan guidance as a first home buyer.`;
+
+      if (notes) {
+        messageText += `\n\nExtra notes: ${notes}`;
+      }
+
+      const waUrl = `https://wa.me/${firmWaNumber}?text=${encodeURIComponent(
+        messageText
+      )}`;
+      window.open(waUrl, '_blank');
+      closeModal();
+    });
+
+    // ========== BANK RATES ==========
+    function getBankLogo(bankName) {
+      if (!bankName) return '';
+
+      const name = bankName.toLowerCase();
+
+      if (name.includes('maybank')) return 'assets/logos/maybank.webp';
+      if (name.includes('cimb')) return 'assets/logos/cimb.webp';
+      if (name.includes('public')) return 'assets/logos/publicbank.webp';
+      if (name.includes('rhb')) return 'assets/logos/rhb.webp';
+      if (name.includes('hong leong')) return 'assets/logos/hongleong.webp';
+      if (name.includes('ocbc')) return 'assets/logos/ocbc.webp';
+      if (name.includes('uob')) return 'assets/logos/uob.webp';
+      if (name.includes('standard chartered') || name.includes('standardchartered'))
+        return 'assets/logos/standardchartered.webp';
+      if (name.includes('ambank')) return 'assets/logos/ambank.webp';
+      if (name.includes('alliance')) return 'assets/logos/alliance.webp';
+      if (name.includes('bank islam')) return 'assets/logos/bankislam.png';
+      if (name.includes('bank rakyat')) return 'assets/logos/bankrakyat.jpeg';
+      if (name.includes('muamalat')) return 'assets/logos/muamalat.webp';
+      if (name.includes('affin')) return 'assets/logos/affin.webp';
+
+      return '';
+    }
+
+    async function loadRates() {
+      const grid = document.getElementById('rates-grid');
+      const updatedEl = document.getElementById('rates-updated');
+
+      try {
+        const res = await fetch('assets/bank-rates.json', { cache: 'no-store' });
+
+        if (!res.ok) {
+          console.error('Failed to load bank-rates.json', res.status);
+          updatedEl.textContent =
+            'Unable to load rates. Please WhatsApp us for latest offers.';
+          return;
+        }
+
+        const data = await res.json();
+
+        if (!Array.isArray(data) || data.length === 0) {
+          updatedEl.textContent =
+            'No rate data available. Please WhatsApp us for current offers.';
+          return;
+        }
+
+        grid.innerHTML = '';
+        let latestUpdated = null;
+
+        data.forEach((item) => {
+          const bank = item.bank || '';
+          const product = item.product || 'Housing Loan';
+          const type = item.type || 'Standard';
+          const note = item.note || '';
+          const updated = item.updated || '';
+          const rateNum = Number(item.rate);
+          const rate = !isNaN(rateNum)
+            ? rateNum.toFixed(2) + '% p.a.'
+            : '—';
+
+          const logo = getBankLogo(bank);
+
+          const card = document.createElement('div');
+          card.className = 'rate-card';
+
+          card.innerHTML = `
+            <div class="rate-card-head">
+              ${logo ? `<img src="${logo}" alt="${bank} logo" class="rate-logo">` : ""}
+              <div class="rate-bank">${bank}</div>
+            </div>
+            <div class="rate-main">
+              <div class="rate-value">${rate}</div>
+              <div class="rate-tag">${type}</div>
+            </div>
+            <div class="rate-meta">
+              ${product}<br>
+              ${note ? note + "<br>" : ""}${updated ? "Updated: " + updated : ""}
+            </div>
+          `;
+
+          grid.appendChild(card);
+
+          if (updated) {
+            const dt = new Date(updated);
+            if (!isNaN(dt) && (!latestUpdated || dt > latestUpdated)) {
+              latestUpdated = dt;
+            }
+          }
+        });
+
+        updatedEl.textContent = latestUpdated
+          ? 'Last refreshed: ' + latestUpdated.toLocaleDateString()
+          : 'Rates loaded from our latest bank feed.';
+      } catch (err) {
+        console.error('Rates error:', err);
+        updatedEl.textContent =
+          'Unable to load rates at the moment. Please WhatsApp us for current offers.';
+      }
+    }
+
+    loadRates();
+  </script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+[
+  {
+    "bank": "Maybank Islamic HouzKey",
+    "type": "Islamic",
+    "rate": 2.88,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "From 2.88% p.a., T&C apply",
+    "logo": "assets/logos/maybank.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Maybank%20Islamic%20HouzKey"
+  },
+  {
+    "bank": "RHB My1st Home",
+    "type": "Conventional",
+    "rate": 4.10,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Subject to bank approval",
+    "logo": "assets/logos/rhb.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20RHB%20My1st%20Home"
+  },
+  {
+    "bank": "Bank Islam Baiti Home Financing-i",
+    "type": "Islamic",
+    "rate": 3.85,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Profit rate from 3.85% p.a.",
+    "logo": "assets/logos/bankislam.png",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Bank%20Islam%20Baiti%20Home%20Financing-i"
+  },
+  {
+    "bank": "Bank Islam Wahdah Home Financing-i",
+    "type": "Islamic",
+    "rate": 3.80,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Indicative profit rate",
+    "logo": "assets/logos/bankislam.png",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Bank%20Islam%20Wahdah%20Home%20Financing-i"
+  },
+  {
+    "bank": "Maybank MaxiHome",
+    "type": "Conventional",
+    "rate": 4.20,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Standard housing loan",
+    "logo": "assets/logos/maybank.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Maybank%20MaxiHome"
+  },
+  {
+    "bank": "CIMB HomeFlexi",
+    "type": "Conventional",
+    "rate": 4.25,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Flexi with redraw features",
+    "logo": "assets/logos/cimb.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20CIMB%20HomeFlexi"
+  },
+  {
+    "bank": "Public Bank HomeSave Plus",
+    "type": "Conventional",
+    "rate": 4.10,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Link-to-savings offset feature",
+    "logo": "assets/logos/publicbank.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Public%20Bank%20HomeSave%20Plus"
+  },
+  {
+    "bank": "RHB Commodity Murabahah Home Financing-i",
+    "type": "Islamic",
+    "rate": 4.55,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Islamic home financing",
+    "logo": "assets/logos/rhb.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20RHB%20Commodity%20Murabahah%20Home%20Financing-i"
+  },
+  {
+    "bank": "Hong Leong Housing Loan",
+    "type": "Conventional",
+    "rate": 4.30,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Standard term loan",
+    "logo": "assets/logos/hongleong.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Hong%20Leong%20Housing%20Loan"
+  },
+  {
+    "bank": "OCBC Home Loan",
+    "type": "Conventional",
+    "rate": 4.35,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Package varies by profile",
+    "logo": "assets/logos/ocbc.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20OCBC%20Home%20Loan"
+  },
+  {
+    "bank": "UOB Home Loan",
+    "type": "Conventional",
+    "rate": 4.28,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "With flexi options",
+    "logo": "assets/logos/uob.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20UOB%20Home%20Loan"
+  },
+  {
+    "bank": "AmBank Home Loan",
+    "type": "Conventional",
+    "rate": 4.40,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Conventional package",
+    "logo": "assets/logos/ambank.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20AmBank%20Home%20Loan"
+  },
+  {
+    "bank": "Standard Chartered MortgageOne™ Zero Cost",
+    "type": "Conventional",
+    "rate": 4.20,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Offset-style account",
+    "logo": "assets/logos/standardchartered.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Standard%20Chartered%20MortgageOne%20Zero%20Cost"
+  },
+  {
+    "bank": "Affin Home Assist",
+    "type": "Conventional",
+    "rate": 4.15,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Entry-level package",
+    "logo": "assets/logos/affin.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Affin%20Home%20Assist"
+  },
+  {
+    "bank": "Alliance Bank Home Complete",
+    "type": "Conventional",
+    "rate": 4.18,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Bundled protection options",
+    "logo": "assets/logos/alliance.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Alliance%20Bank%20Home%20Complete"
+  },
+  {
+    "bank": "Bank Rakyat Home Financing-i",
+    "type": "Islamic",
+    "rate": 3.95,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Shariah-compliant",
+    "logo": "assets/logos/bankrakyat.jpeg",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Bank%20Rakyat%20Home%20Financing-i"
+  },
+  {
+    "bank": "Bank Muamalat Home Financing-i",
+    "type": "Islamic",
+    "rate": 3.90,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Islamic term financing",
+    "logo": "assets/logos/muamalat.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Bank%20Muamalat%20Home%20Financing-i"
+  },
+  {
+   "bank": "Bank Muamalat Home Financing-i",
+    "type": "Islamic",
+    "rate": 3.90,
+    "minTenure": 5,
+    "maxTenure": 35,
+    "notes": "Islamic term financing",
+    "logo": "assets/logos/muamalat.webp",
+    "applyUrl": "https://wa.me/60193505323?text=I%20want%20help%20with%20Bank%20Muamalat%20Home%20Financing-i"
+  }
+]
