@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ask10Qs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="Ask10Qs · Choose a simple 10-question check.">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="css/first-home.css">
+</head>
+<script defer src="/_vercel/insights/script.js"></script>
+<body>
+  <div class="page">
+    <div class="wrap">
+
+      <!-- LANGUAGE SWITCH -->
+      <div class="language-switch">
+        <button data-lang="en" class="lang-btn active">EN</button>
+        <button data-lang="bm" class="lang-btn">BM</button>
+      </div>
+
+      <!-- MAIN SIMPLE HUB -->
+      <main>
+        <section class="hero">
+          <div>
+            <!-- Small badge just to show brand -->
+            <div class="badge"
+                 data-en="Ask10Qs · Faiz, Azrina &amp; Co."
+                 data-bm="Ask10Qs · Faiz, Azrina &amp; Co.">
+              <span class="badge-dot"></span>
+              Ask10Qs · Faiz, Azrina &amp; Co.
+            </div>
+
+            <!-- You can remove this heading completely if you really want only buttons -->
+            <h1 data-en="Choose what you want to check today"
+                data-bm="Pilih apa yang anda mahu semak hari ini">
+              Choose what you want to check today
+            </h1>
+
+            <div style="margin-top:24px; max-width:600px;">
+  <a href="loan.html"
+     class="btn-primary"
+     style="
+       display:block;
+       width:100%;
+       max-width:600px;
+       margin:0 auto 14px;
+       background:var(--yellow);
+       color:#000;
+       box-shadow:0 10px 22px rgba(0,0,0,0.12);
+       text-align:center;
+     "
+     data-en="Will the bank give you financing?"
+     data-bm="Adakah bank akan memberi anda pembiayaan?">
+    Will the bank give you financing?
+  </a>
+
+  <a href="estate.html"
+   class="btn-primary"
+   style="
+     display:block;
+     width:100%;
+     max-width:600px;
+     margin:0 auto 14px;
+     background:var(--yellow);
+     color:#000;                 <!-- add / keep this -->
+     box-shadow:0 10px 22px rgba(0,0,0,0.12);
+     text-align:center;
+   "
+   data-en="If you passed away suddenly, would your family be protected?"
+   data-bm="Jika anda pergi secara mengejut, adakah keluarga anda benar-benar terlindung?">
+  If you passed away suddenly, would your family be protected?
+</a>
+
+
+
+
+  <a href="valuation.html"
+     class="btn-primary"
+     style="
+       display:block;
+       width:100%;
+       max-width:600px;
+       margin:0 auto;
+       background:var(--yellow);
+       color:#000;
+       box-shadow:0 10px 22px rgba(0,0,0,0.12);
+       text-align:center;
+     "
+     data-en="What is the estimated value of this property?"
+     data-bm="Berapakah anggaran nilai rumah ini?">
+    What is the value of this property?
+  </a>
+</div>
+
+
+
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        © <span id="year-span"></span> Faiz, Azrina &amp; Co. · Educational information only, not legal advice.
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // year
+    document.getElementById('year-span').textContent = new Date().getFullYear();
+
+    // language switch
+    let currentLang = 'en';
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const langNodes = document.querySelectorAll('[data-en][data-bm]');
+
+    function applyLanguage(lang) {
+      currentLang = lang || 'en';
+      langNodes.forEach(el => {
+        const text = el.dataset[currentLang];
+        if (typeof text === 'string') {
+          el.textContent = text;
+        }
+      });
+    }
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        langButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyLanguage(btn.dataset.lang || 'en');
+      });
+    });
+
+    applyLanguage('en');
+  </script>
+</body>
+</html>

@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>What is your property's estimated value? · Faiz, Azrina &amp; Co.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="10-question property valuation check. Answer a few questions and we’ll WhatsApp you an estimated value range after checking with our panel valuers.">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="css/first-home.css">
+</head>
+<script defer src="/_vercel/insights/script.js"></script>
+
+<body>
+  <div class="page">
+    <div class="wrap">
+
+      <!-- LANGUAGE SWITCH -->
+      <div class="language-switch">
+        <button data-lang="en" class="lang-btn active">EN</button>
+        <button data-lang="bm" class="lang-btn">BM</button>
+      </div>
+
+      <!-- HERO -->
+      <header class="hero">
+        <div>
+          <div class="badge"
+               data-en="Property Valuation · 10 Questions"
+               data-bm="Anggaran Nilai Hartanah · 10 Soalan">
+            <span class="badge-dot"></span>
+            Property Valuation · 10 Questions
+          </div>
+
+          <h1
+            data-en="What is the value of this property?"
+            data-bm="Berapa nilai anggaran hartanah ini?">
+            Want an estimated value of your property?
+          </h1>
+
+          <p class="lead"
+             data-en="Answer 10 quick questions about the property."
+             data-bm="Jawab 10 soalan ringkas tentang hartanah anda.">
+            Answer 10 quick questions about the property. We’ll check with our panel valuers and WhatsApp you an estimated value range.
+          </p>
+
+          <div class="hero-points">
+            <span
+              data-en="Based on real valuer input, not guesswork."
+              data-bm="Berdasarkan input penilai bertauliah, bukan teka semata-mata.">
+              Based on real valuer input, not guesswork.
+            </span>
+            <span
+              data-en="Useful for selling, refinancing, or estate planning."
+              data-bm="Berguna untuk jual beli, refinancing, atau perancangan harta.">
+              Useful for selling, refinancing, or estate planning.
+            </span>
+            <span
+              data-en="You’ll get the result via WhatsApp, usually within 48 hours."
+              data-bm="Anda akan terima anggaran melalui WhatsApp, biasanya dalam 48 jam.">
+              You’ll get the result via WhatsApp, usually within 48 hours.
+            </span>
+          </div>
+
+          <div class="hero-cta-row">
+            <button class="btn-primary" id="start-valuation"
+                    data-en="Start 10-question valuation check"
+                    data-bm="Mulakan semakan nilai 10 soalan">
+              <span>▶</span>
+              Start 10-question valuation check
+            </button>
+            <div class="hero-subtext"
+                 data-en="No fees, no obligation — just an estimated value range."
+                 data-bm="Tiada bayaran, tiada komitmen — hanya anggaran nilai.">
+              No fees, no obligation — just an estimated value range.
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="hero-card-title"
+               data-en="What this page does for you"
+               data-bm="Apa yang halaman ini bantu anda">
+            What this page does for you
+          </div>
+          <div class="hero-card-points">
+            <div
+              data-en="Collects key details valuers actually need"
+              data-bm="Kumpul maklumat penting yang penilai perlukan">
+              Collects key details valuers actually need
+            </div>
+            <div
+              data-en="We liaise with our valuer network behind the scenes"
+              data-bm="Kami hubungi rangkaian penilai kami di belakang tabir">
+              We liaise with our valuer network behind the scenes
+            </div>
+            <div
+              data-en="You receive an estimated value range via WhatsApp"
+              data-bm="Anda terima anggaran julat nilai melalui WhatsApp">
+              You receive an estimated value range via WhatsApp
+            </div>
+          </div>
+          <div class="hero-card-pill"
+               data-en="Property decisions, made with more clarity."
+               data-bm="Keputusan hartanah, dengan lebih jelas.">
+            Property decisions, made with more clarity.
+          </div>
+        </aside>
+      </header>
+
+      <!-- MAIN CONTENT -->
+      <main>
+
+        <!-- HOW IT WORKS -->
+        <section>
+          <h2 class="section-title"
+              data-en="How it works"
+              data-bm="Bagaimana ia berfungsi">
+            How it works
+          </h2>
+          
+        </section>
+
+        <!-- VALUATION FORM -->
+        <section id="valuation-section">
+          <h2 class="section-title"
+              data-en="Step 1 · Answer the 10 questions"
+              data-bm="Langkah 1 · Jawab 10 soalan">
+            Step 1 · Answer the 10 questions
+          </h2>
+
+          <p class="section-subtitle"
+             data-en="The more accurate your answers, the more useful the estimated range will be. If you have a copy of the title (geran), you can attach it later via WhatsApp."
+             data-bm="Lebih tepat maklumat anda, lebih berguna anggaran yang kami berikan. Jika anda ada salinan geran, anda boleh lampirkan kemudian melalui WhatsApp.">
+            The more accurate your answers, the more useful the estimated range will be. If you have a copy of the title (geran), you can attach it later via WhatsApp.
+          </p>
+
+          <form id="valuation-form">
+            <div class="quiz-grid">
+
+              <!-- Q1 Property type -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="1. Property type"
+                     data-bm="1. Jenis hartanah">
+                  1. Property type
+                </div>
+                <div class="quiz-help"
+                     data-en="Is it landed, an apartment, a condominium, or something else?"
+                     data-bm="Adakah ia rumah landed, apartmen, kondominium atau lain-lain?">
+                  Is it landed, an apartment, a condominium, or something else?
+                </div>
+                <div class="field">
+                  <select name="propertyType" id="v-type" required>
+                    <option value=""
+                            data-en="Please choose"
+                            data-bm="Sila pilih">
+                      Please choose
+                    </option>
+                    <option value="Landed"
+                            data-en="Landed (Terrace / Semi-D / Bungalow)"
+                            data-bm="Landed (Teres / Semi-D / Banglo)">
+                      Landed (Terrace / Semi-D / Bungalow)
+                    </option>
+                    <option value="Apartment/Flat"
+                            data-en="Apartment / Flat"
+                            data-bm="Apartmen / Flat">
+                      Apartment / Flat
+                    </option>
+                    <option value="Condo/Serviced"
+                            data-en="Condominium / Serviced Residence"
+                            data-bm="Kondominium / Servis Residensi">
+                      Condominium / Serviced Residence
+                    </option>
+                    <option value="Commercial"
+                            data-en="Commercial (Shop / Office)"
+                            data-bm="Komersial (Kedai / Pejabat)">
+                      Commercial (Shop / Office)
+                    </option>
+                    <option value="Other"
+                            data-en="Other"
+                            data-bm="Lain-lain">
+                      Other
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Q2 Full address -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="2. Full property address"
+                     data-bm="2. Alamat penuh hartanah">
+                  2. Full property address
+                </div>
+                <div class="quiz-help"
+                     data-en="Please include house number, street, taman, postcode, and state."
+                     data-bm="Sila sertakan nombor rumah, jalan, taman, poskod dan negeri.">
+                  Please include house number, street, taman, postcode, and state.
+                </div>
+                <div class="field">
+                  <textarea name="address" id="v-address" rows="2" required
+                            placeholder="e.g. No. 12, Jalan Damai 3, Taman Damai, 40100 Shah Alam, Selangor"></textarea>
+                </div>
+              </div>
+
+              <!-- Q3 Title details -->
+              <!-- Q3 Title / geran availability -->
+<div class="quiz-card">
+  <div class="quiz-label"
+       data-en="3. Do you have a copy of the title (geran)?"
+       data-bm="3. Adakah anda mempunyai salinan geran?">
+    3. Do you have a copy of the title (geran)?
+  </div>
+  <div class="quiz-help"
+       data-en="If yes, you can attach a clear photo/screenshot when WhatsApp opens later."
+       data-bm="Jika ya, anda boleh lampirkan gambar yang jelas apabila WhatsApp dibuka nanti.">
+    If yes, you can attach a clear photo/screenshot when WhatsApp opens later.
+  </div>
+  <div class="quiz-options">
+    <label>
+      <input type="radio" name="hasTitle" value="Yes">
+      <span data-en="Yes, I have the title"
+            data-bm="Ya, saya ada salinan geran">
+        Yes, I have the title
+      </span>
+    </label>
+    <label>
+      <input type="radio" name="hasTitle" value="No">
+      <span data-en="No, I don't have it with me now"
+            data-bm="Tidak, saya tiada sekarang">
+        No, I don't have it with me now
+      </span>
+    </label>
+  </div>
+</div>
+
+
+              <!-- Q4 Built-up -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="4. Total Built-up area (approx.)"
+                     data-bm="4. Total Keluasan binaan (anggaran)">
+                  4. Total Built-up area (approx.)
+                </div>
+                <div class="quiz-help"
+                     data-en="If unsure, a rough figure is okay."
+                     data-bm="Jika tidak pasti, anggaran pun memadai.">
+                  If unsure, a rough figure is okay.
+                </div>
+                <div class="field">
+                  <input type="text" name="builtUp" id="v-builtup"
+                         placeholder="e.g. 1,800 sq ft">
+                </div>
+              </div>
+
+              <!-- Q5 Land area -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="5. Land area (if landed)"
+                     data-bm="5. Keluasan tanah (jika landed)">
+                  5. Land area (if landed)
+                </div>
+                <div class="quiz-help"
+                     data-en="For example: 22' x 75' or 1,650 sq ft."
+                     data-bm="Contoh: 22' x 75' atau 1,650 kaki persegi.">
+                  For example: 22' x 75' or 1,650 sq ft.
+                </div>
+                <div class="field">
+                  <input type="text" name="landArea" id="v-land"
+                         placeholder="e.g. 22' x 75' or 1,650 sq ft">
+                  <div class="field-small"
+                       data-en="If it’s an apartment/condo, you may leave this blank."
+                       data-bm="Jika apartmen/kondo, boleh kosongkan.">
+                    If it’s an apartment/condo, you may leave this blank.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q6 Condition -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="6. Property condition"
+                     data-bm="6. Keadaan hartanah">
+                  6. Property condition
+                </div>
+                <div class="quiz-help"
+                     data-en="General condition is enough, no need for perfect detail."
+                     data-bm="Keadaan umum sudah memadai, tidak perlu terlalu terperinci.">
+                  General condition is enough, no need for perfect detail.
+                </div>
+                <div class="field">
+                  <select name="condition" id="v-condition">
+                    <option value=""
+                            data-en="Please choose"
+                            data-bm="Sila pilih">
+                      Please choose
+                    </option>
+                    <option value="Original/basic"
+                            data-en="Basic / Original"
+                            data-bm="Asal / Basic">
+                      Basic / Original
+                    </option>
+                    <option value="Moderately renovated"
+                            data-en="Moderate renovation"
+                            data-bm="Renovasi sederhana">
+                      Moderate renovation
+                    </option>
+                    <option value="Fully renovated"
+                            data-en="Fully renovated & well maintained"
+                            data-bm="Telah diubahsuai & dijaga baik">
+                      Fully renovated & well maintained
+                    </option>
+                    <option value="Needs repair"
+                            data-en="Old / needs major repair"
+                            data-bm="Lama / perlukan banyak pembaikan">
+                      Old / needs major repair
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Q7 Special features -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="7. Any special features or recent renovations?"
+                     data-bm="7. Ciri khas atau renovasi terbaru?">
+                  7. Any special features or recent renovations?
+                </div>
+                <div class="quiz-help"
+                     data-en="Example: kitchen extension, new roof, corner lot, facing park, built-in cabinets, etc."
+                     data-bm="Contoh: sambungan dapur, bumbung baru, rumah penjuru, menghadap taman, kabinet bina dalam dan sebagainya.">
+                  Example: kitchen extension, new roof, corner lot, facing park, built-in cabinets, etc.
+                </div>
+                <div class="field">
+                  <textarea name="specialFeatures" id="v-features" rows="2"
+                            placeholder="e.g. extended kitchen, new tiles, corner lot facing playground"></textarea>
+                </div>
+              </div>
+
+              <!-- Q8 Property photos -->
+<!-- Q8 Property photos ready? -->
+<div class="quiz-card">
+  <div class="quiz-label"
+       data-en="8. Do you have clear property photos ready?"
+       data-bm="8. Adakah anda mempunyai gambar hartanah yang jelas?">
+    8. Do you have clear property photos ready?
+  </div>
+  <div class="quiz-help"
+       data-en="Ideally: front view, street view, inside (living room, kitchen), and any major renovations. You can attach them when WhatsApp opens."
+       data-bm="Sebaiknya: pandangan hadapan, pandangan jalan, bahagian dalam rumah (ruang tamu, dapur), dan sebarang renovasi besar. Anda boleh lampirkan bila WhatsApp dibuka nanti.">
+    Ideally: front view, street view, inside (living room, kitchen), and any major renovations. You can attach them when WhatsApp opens.
+  </div>
+  <div class="quiz-options">
+    <label>
+      <input type="radio" name="hasPhotos" value="Yes">
+      <span data-en="Yes, I already have clear photos"
+            data-bm="Ya, saya sudah ada gambar yang jelas">
+        Yes, I already have clear photos
+      </span>
+    </label>
+    <label>
+      <input type="radio" name="hasPhotos" value="No">
+      <span data-en="Not yet, I will take them later"
+            data-bm="Belum, saya akan ambil kemudian">
+        Not yet, I will take them later
+      </span>
+    </label>
+  </div>
+  <div class="field-small"
+       data-en="You do not need to upload photos on this page. Just attach them directly in WhatsApp after you tap the button."
+       data-bm="Anda tidak perlu muat naik gambar di halaman ini. Cukup lampirkan terus di WhatsApp selepas anda tekan butang.">
+    You do not need to upload photos on this page. Just attach them directly in WhatsApp after you tap the button.
+  </div>
+</div>
+
+
+              <!-- Q9 Reason -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="9. Why do you want this valuation?"
+                     data-bm="9. Tujuan anda mahu anggaran nilai ini?">
+                  9. Why do you want this valuation?
+                </div>
+                <div class="quiz-help"
+                     data-en="No right or wrong answer — this just guides our advice."
+                     data-bm="Tiada betul atau salah — ini hanya membantu kami menyesuaikan nasihat.">
+                  No right or wrong answer — this just guides our advice.
+                </div>
+                <div class="field">
+                  <select name="reason" id="v-reason">
+                    <option value=""
+                            data-en="Please choose"
+                            data-bm="Sila pilih">
+                      Please choose
+                    </option>
+                    <option value="Selling"
+                            data-en="Planning to sell"
+                            data-bm="Rancang untuk jual">
+                      Planning to sell
+                    </option>
+                    <option value="Refinancing"
+                            data-en="Considering refinancing"
+                            data-bm="Sedang pertimbang refinancing">
+                      Considering refinancing
+                    </option>
+                    <option value="Estate planning"
+                            data-en="Estate / family planning"
+                            data-bm="Perancangan harta / keluarga">
+                      Estate / family planning
+                    </option>
+                    <option value="Checking value"
+                            data-en="Just checking market value"
+                            data-bm="Sekadar ingin tahu nilai pasaran">
+                      Just checking market value
+                    </option>
+                    <option value="Other"
+                            data-en="Other"
+                            data-bm="Lain-lain">
+                      Other
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Q10 Contact details -->
+              <div class="quiz-card">
+                <div class="quiz-label"
+                     data-en="10. Your contact details"
+                     data-bm="10. Maklumat untuk kami hubungi anda">
+                  10. Your contact details
+                </div>
+                <div class="quiz-help"
+                     data-en="We will send the estimated value range to this WhatsApp number."
+                     data-bm="Kami akan hantar anggaran nilai ke nombor WhatsApp ini.">
+                  We will send the estimated value range to this WhatsApp number.
+                </div>
+                <div class="field">
+                  <label class="field-small"
+                         data-en="Full name"
+                         data-bm="Nama penuh">
+                    Full name
+                  </label>
+                  <input type="text" id="v-name" name="name" required>
+                </div>
+                <div class="field">
+                  <label class="field-small"
+                         data-en="WhatsApp number (e.g. 0123456789)"
+                         data-bm="Nombor WhatsApp (cth: 0123456789)">
+                    WhatsApp number (e.g. 0123456789)
+                  </label>
+                  <input type="tel" id="v-phone" name="whatsapp" required>
+                  <div class="field-small"
+                       data-en="Please include leading zero; we’ll format it for WhatsApp."
+                       data-bm="Sila masukkan angka sifar di depan; kami akan formatkan untuk WhatsApp.">
+                    Please include leading zero; we’ll format it for WhatsApp.
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="field-small"
+                         data-en="Email (optional)"
+                         data-bm="Emel (pilihan)">
+                    Email (optional)
+                  </label>
+                  <input type="email" id="v-email" name="email"
+                         placeholder="you@example.com">
+                </div>
+              </div>
+
+            </div><!-- /.quiz-grid -->
+
+            <!-- Disclaimer -->
+            <p class="quiz-note disclaimer"
+               data-en="This is an estimated value range only and not a formal valuation report. For bank financing, tax, or court purposes, you will need a full valuation report from a licensed valuer."
+               data-bm="Ini hanyalah anggaran julat nilai dan bukan laporan penilaian rasmi. Untuk tujuan pinjaman bank, cukai atau mahkamah, anda perlu laporan penilaian penuh daripada penilai bertauliah.">
+              This is an estimated value range only and not a formal valuation report. For bank financing, tax, or court purposes, you will need a full valuation report from a licensed valuer.
+            </p>
+
+            <div class="quiz-actions">
+              <div>
+                <button type="button" class="btn-primary" id="valuation-submit"
+                        data-en="Submit & open WhatsApp"
+                        data-bm="Hantar & buka WhatsApp">
+                  Submit & open WhatsApp
+                </button>
+              </div>
+              <div class="quiz-note"
+                   data-en="On WhatsApp, you can also attach a clear photo of the title (geran) to help the valuer be more precise."
+                   data-bm="Di WhatsApp, anda juga boleh lampirkan gambar jelas geran untuk bantu penilai beri anggaran yang lebih tepat.">
+                On WhatsApp, you can also attach a clear photo of the title (geran) to help the valuer be more precise.
+              </div>
+            </div>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        © <span id="year-span"></span> Faiz, Azrina &amp; Co. · Educational information only, not legal advice.
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // ========== YEAR ==========
+    document.getElementById('year-span').textContent = new Date().getFullYear();
+
+    // ========== SCROLL TO FORM ==========
+    const startValuationBtn = document.getElementById('start-valuation');
+    if (startValuationBtn) {
+      startValuationBtn.addEventListener('click', () => {
+        const section = document.getElementById('valuation-section');
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+
+    // ========== LANGUAGE SWITCH ==========
+    let currentLang = 'en';
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const langNodes = document.querySelectorAll('[data-en][data-bm]');
+
+    function applyLanguage(lang) {
+      currentLang = lang || 'en';
+      langNodes.forEach(el => {
+        const text = el.dataset[currentLang];
+        if (typeof text === 'string') {
+          el.textContent = text;
+        }
+      });
+    }
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        langButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyLanguage(btn.dataset.lang || 'en');
+      });
+    });
+
+    applyLanguage('en');
+
+    // ========== WHATSAPP HANDOVER ==========
+    const firmWaNumber = '60193505323'; // FACO number
+
+    function normaliseUserPhone(raw) {
+      const digits = (raw || '').replace(/\D/g, '');
+      if (!digits) return '';
+      if (digits.startsWith('0')) {
+        return '6' + digits;      // 0xxxxxxxxx -> 60xxxxxxxxx
+      }
+      if (!digits.startsWith('6')) {
+        return '60' + digits;     // xxxxxxxxx -> 60xxxxxxxxx
+      }
+      return digits;
+    }
+
+    document.getElementById('valuation-submit').addEventListener('click', () => {
+      const type = document.getElementById('v-type').value.trim();
+const address = document.getElementById('v-address').value.trim();
+const builtup = document.getElementById('v-builtup').value.trim();
+const land = document.getElementById('v-land').value.trim();
+const condition = document.getElementById('v-condition').value.trim();
+const features = document.getElementById('v-features').value.trim();
+
+const titleStatusEl = document.querySelector('input[name="hasTitle"]:checked');
+const titleStatus = titleStatusEl ? titleStatusEl.value : '';
+
+const photosStatusEl = document.querySelector('input[name="hasPhotos"]:checked');
+const photosStatus = photosStatusEl ? photosStatusEl.value : '';
+
+const reason = document.getElementById('v-reason').value.trim();
+const name = document.getElementById('v-name').value.trim();
+const phone = document.getElementById('v-phone').value.trim();
+const email = document.getElementById('v-email').value.trim();
+
+
+      const isBm = currentLang === 'bm';
+
+      if (!address || !name || !phone) {
+        alert(
+          isBm
+            ? 'Sila pastikan anda isi sekurang-kurangnya alamat hartanah, nama penuh dan nombor WhatsApp.'
+            : 'Please make sure you have filled in at least the property address, your full name, and your WhatsApp number.'
+        );
+        return;
+      }
+
+      const userWaFormatted = normaliseUserPhone(phone);
+
+      let message = '';
+
+      if (isBm) {
+        message += 'Assalamualaikum / Hi Faiz, Azrina & Co.,\n\n';
+        message += 'Saya ingin mendapatkan anggaran nilai hartanah.\n\n';
+        message += 'Butiran hartanah:\n';
+      } else {
+        message += 'Hello Faiz, Azrina & Co.,\n\n';
+        message += 'I would like to request an estimated value range for my property.\n\n';
+        message += 'Property details:\n';
+      }
+
+      message += `• Type: ${type || '-'}\n`;
+message += `• Address: ${address}\n`;
+message += `• Has title (geran) copy: ${titleStatus || '-'}\n`;
+message += `• Has clear property photos: ${photosStatus || '-'}\n`;
+message += `• Built-up: ${builtup || '-'}\n`;
+message += `• Land area: ${land || '-'}\n`;
+message += `• Condition: ${condition || '-'}\n`;
+message += `• Special features/renovations: ${features || '-'}\n`;
+message += `• Reason for valuation: ${reason || '-'}\n\n`;
+
+
+      if (isBm) {
+        message += 'Butiran saya:\n';
+      } else {
+        message += 'My details:\n';
+      }
+
+      message += `• Name: ${name}\n`;
+      message += `• WhatsApp: ${phone}`;
+      if (userWaFormatted) {
+        message += ` (formatted: +${userWaFormatted})`;
+      }
+      message += '\n';
+      if (email) {
+        message += `• Email: ${email}\n`;
+      }
+
+      if (isBm) {
+        message += '\nSaya faham bahawa ini hanyalah anggaran julat nilai dan bukannya laporan penilaian rasmi. ';
+        message += 'Saya boleh lampirkan gambar geran untuk memudahkan penilaian.\n';
+      } else {
+        message += '\nI understand this is an estimated value range and not a formal valuation report. ';
+        message += 'I can attach a clear photo of the title (geran) to help with the assessment.\n';
+      }
+
+      const waUrl = `https://wa.me/${firmWaNumber}?text=${encodeURIComponent(message)}`;
+      window.open(waUrl, '_blank');
+    });
+  </script>
+</body>
+</html>
